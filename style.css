@@ -116,6 +116,14 @@ body {
         display: flex;
         flex-direction: row-reverse;
         width: 700px;
+        & .imagen{
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 10px;
+        }
+        & img{
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 10px;
+        }
         & h1{
             font-size: 1.6em;
             text-align: start;
