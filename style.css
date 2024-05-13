@@ -37,6 +37,8 @@ body {
         );
         height: 250px;
         width: 340px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     & img {
